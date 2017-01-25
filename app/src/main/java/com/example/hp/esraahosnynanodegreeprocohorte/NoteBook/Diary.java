@@ -23,7 +23,6 @@ public class Diary extends AppCompatActivity {
     public static String filename = "notes";
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

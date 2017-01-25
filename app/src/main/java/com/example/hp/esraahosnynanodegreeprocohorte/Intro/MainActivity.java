@@ -38,6 +38,7 @@ import com.squareup.picasso.Picasso;
 import java.io.File;
 import java.io.IOException;
 
+
 public class MainActivity extends AppCompatActivity {
 
     EditText nameTxt, PhoneTxt, emailTxt, addressTxt;

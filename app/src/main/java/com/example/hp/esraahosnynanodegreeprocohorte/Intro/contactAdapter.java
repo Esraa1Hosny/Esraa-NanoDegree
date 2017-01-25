@@ -23,6 +23,7 @@ import java.util.ArrayList;
  */
 
 
+
 public class contactAdapter extends BaseAdapter {
 
     Context context;

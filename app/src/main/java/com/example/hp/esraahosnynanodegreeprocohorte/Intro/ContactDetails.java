@@ -15,7 +15,6 @@ import com.example.hp.esraahosnynanodegreeprocohorte.NoteBook.Diary;
 import com.example.hp.esraahosnynanodegreeprocohorte.R;
 
 
-
 public class ContactDetails extends AppCompatActivity {
 
     TextView textname, textphone, textemail, textaddress;

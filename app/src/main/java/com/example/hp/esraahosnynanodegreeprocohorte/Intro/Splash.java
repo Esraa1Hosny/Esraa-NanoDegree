@@ -14,7 +14,6 @@ import com.example.hp.esraahosnynanodegreeprocohorte.R;
 
 public class Splash extends AppCompatActivity {
 
-
      ImageView imageView;
      Button button;
      TextView textView;
