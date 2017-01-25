@@ -37,7 +37,8 @@ public class CallActivity extends AppCompatActivity {
         imageback = (ImageView) findViewById(R.id.image);
         String url = "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png";
         Glide.with(CallActivity.this).load(url).into(imageback);
-        imageback.setAlpha(127);  //value: [0-255]. Where 0 is fully transparent and 255 is fully opaque.
+        imageback.setAlpha(127);
+        //value: [0-255]. Where 0 is fully transparent and 255 is fully opaque.
 
 
         imagephone.setOnClickListener(new View.OnClickListener() {
@@ -45,7 +46,7 @@ public class CallActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
                 intent.setData(Uri.parse("tel: "+ number.getText().toString()));
-                Log.v(getPhone1,"right");
+             //   Log.v(getPhone1,"right");
                 startActivity(intent);
             }
         });

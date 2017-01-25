@@ -22,6 +22,7 @@ public class ContactDetails extends AppCompatActivity {
     ImageView  imagephone, imageemail, imagePerson, imagenote;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

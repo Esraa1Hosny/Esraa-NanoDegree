@@ -92,7 +92,6 @@ public class mail extends AppCompatActivity {
             }
         });
 
-
        /* //file
         file.setOnClickListener(new View.OnClickListener() {
             @Override

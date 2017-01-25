@@ -18,6 +18,7 @@ public class FirebaseHelper {
     ArrayList<Contact> contacts = new ArrayList<>();
 
     /*
+
  PASS DATABASE REFRENCE
   */
     public FirebaseHelper(DatabaseReference db) {

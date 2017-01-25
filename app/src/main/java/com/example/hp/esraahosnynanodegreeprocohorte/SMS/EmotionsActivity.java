@@ -40,6 +40,7 @@ public class EmotionsActivity extends AppCompatActivity {
     EmotionsAdapter emotionsAdapter;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

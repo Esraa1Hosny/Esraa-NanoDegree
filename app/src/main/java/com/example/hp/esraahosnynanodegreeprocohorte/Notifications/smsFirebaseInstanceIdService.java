@@ -21,4 +21,5 @@ public class smsFirebaseInstanceIdService extends FirebaseInstanceIdService {
         String recent_token = FirebaseInstanceId.getInstance().getToken();
         Log.d(REG_TOKEN, recent_token);
     }
+
 }

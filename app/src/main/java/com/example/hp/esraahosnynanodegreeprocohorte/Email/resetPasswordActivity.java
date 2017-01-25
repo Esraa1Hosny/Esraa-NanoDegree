@@ -23,6 +23,7 @@ public class resetPasswordActivity extends AppCompatActivity {
     private FirebaseAuth auth;
     private ProgressBar progressBar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

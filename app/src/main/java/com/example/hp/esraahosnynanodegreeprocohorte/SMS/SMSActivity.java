@@ -25,6 +25,7 @@ public class SMSActivity extends AppCompatActivity  {
     ListView listMessage;
     ArrayList<String> strings = new ArrayList<String>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

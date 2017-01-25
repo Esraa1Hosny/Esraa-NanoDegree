@@ -22,6 +22,7 @@ import java.util.ArrayList;
  * Created by HP on 15/01/2017.
  */
 
+
 public class contactAdapter extends BaseAdapter {
 
     Context context;

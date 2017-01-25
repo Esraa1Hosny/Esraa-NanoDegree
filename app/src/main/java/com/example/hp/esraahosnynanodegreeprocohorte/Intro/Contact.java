@@ -5,7 +5,6 @@ import android.net.Uri;
 /**
  * Created by HP on 09/01/2017.
  */
-
 public class Contact {
     //attributes
     String name;

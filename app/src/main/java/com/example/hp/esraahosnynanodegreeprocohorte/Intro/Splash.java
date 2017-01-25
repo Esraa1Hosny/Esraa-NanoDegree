@@ -19,6 +19,7 @@ public class Splash extends AppCompatActivity {
      Button button;
      TextView textView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
