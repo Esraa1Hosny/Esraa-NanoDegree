@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.esraahosnynanodegreeprocohorte.Intro.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc33ff"
+        android:layout_marginTop="0dp"
+        android:id="@+id/t1"/>
+
+    <ListView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:id="@+id/lv"
+        android:layout_below="@+id/t1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc33ff"
+        android:layout_below="@+id/lv"
+        android:layout_marginTop="0dp"
+        android:id="@+id/t2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/add"
+        android:text="ADD contact"
+        android:textColor="#cc33ff"
+        android:textStyle="bold"
+        android:layout_below="@+id/t2"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"/>
+</RelativeLayout>

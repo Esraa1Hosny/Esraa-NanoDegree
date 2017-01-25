@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "607216775758",
+    "firebase_url": "https://esraahosnynanodegreeprocohorte.firebaseio.com",
+    "project_id": "esraahosnynanodegreeprocohorte",
+    "storage_bucket": "esraahosnynanodegreeprocohorte.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607216775758:android:b55f6160b3743b0a",
+        "android_client_info": {
+          "package_name": "com.example.hp.esraahosnynanodegreeprocohorte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607216775758-e1ovsv9croelvivb92qg3ap1mmi53h04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.esraahosnynanodegreeprocohorte",
+            "certificate_hash": "92A84924B6BADE13A93408CE667321F38F6DE9E3"
+          }
+        },
+        {
+          "client_id": "607216775758-up3m8fpsuisrt9e5pnjgi3lug93726gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8LqWrAu3dO04_Y5i5z_k6e-h6moDnrEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607216775758-up3m8fpsuisrt9e5pnjgi3lug93726gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

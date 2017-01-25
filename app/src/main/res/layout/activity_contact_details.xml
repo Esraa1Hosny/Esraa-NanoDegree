@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe6"
+    tools:context="com.example.hp.esraahosnynanodegreeprocohorte.Intro.ContactDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/person"
+            android:id="@+id/imageView6"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="name"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/textname"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textColor="#cc33ff"
+                 />
+
+            <TextView
+                android:text="phone"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/textphone"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#cc33ff"
+                 />
+
+            <TextView
+                android:text="email"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/textemail"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:textColor="#cc33ff"
+                 />
+
+            <TextView
+                android:text="address"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textaddress"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#cc33ff"
+                 />
+
+           </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="300dp"
+        android:background="#26ae90"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/phone"
+       android:layout_marginTop="350dp"
+        android:background="#26ae90"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/imagephone"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#26ae90"
+        android:id="@+id/imagenote"
+        app:srcCompat="@drawable/note"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/email"
+        android:id="@+id/imageemail"
+        android:background="#26ae90"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="270dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="460dp"
+        android:background="#26ae90"/>
+</RelativeLayout>

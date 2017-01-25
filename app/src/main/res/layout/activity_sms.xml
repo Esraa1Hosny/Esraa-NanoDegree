@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.esraahosnynanodegreeprocohorte.SMS.SMSActivity">
+
+        <ListView
+            android:id="@+id/listMessage"
+            android:layout_weight="100"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/emotions1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/smile1"/>
+
+
+            <EditText
+                android:id="@+id/messageedit"
+                android:layout_width="265dp"
+                android:background="#f5ccff"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/send"
+                android:background="#eb99ff"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/send1"/>
+        </LinearLayout>
+
+
+</LinearLayout>

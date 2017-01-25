@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3e6ff"
+    tools:context="com.example.hp.nanodegreepro2017.Email.mail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:text="To:"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+       android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:id="@+id/tv1" />
+
+    <TextView
+        android:text="From:"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:id="@+id/tv2"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="Subject:"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        android:textSize="20sp"
+        android:id="@+id/tv3"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/et1"
+        android:textColor="#8600b3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#f2ccff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/et2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#8600b3"
+        android:background="#f2ccff"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/et3"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#8600b3"
+        android:background="#f2ccff"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="0dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/et3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/messagecontent"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#8600b3"
+                android:background="#ffffff"/>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginTop="150dp"
+    android:background="#00ffcc"
+    android:layout_below="@id/et3"
+    android:orientation="vertical">
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:id="@+id/camera"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="10dp"
+               app:srcCompat="@drawable/camera"/>
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:id="@+id/image"
+               android:layout_marginLeft="20dp"
+               android:layout_marginTop="0dp"
+               app:srcCompat="@drawable/image"/>
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:id="@+id/file"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="10dp"
+               app:srcCompat="@drawable/file"/>
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:id="@+id/emotions"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="35dp"
+               app:srcCompat="@drawable/smile"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ccfff5">
+        <ScrollView
+            android:layout_width="340dp"
+            android:layout_height="200dp">
+        <EditText
+            android:layout_width="310dp"
+            android:layout_height="300dp"
+            android:inputType="textMultiLine"
+            android:hint="type a message..."
+            android:id="@+id/et4"
+            android:textColor="#8600b3"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"/>
+        </ScrollView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginLeft="-40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/send"
+            app:srcCompat="@drawable/send1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_call"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.esraahosnynanodegreeprocohorte.Call.CallActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/image"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/image2"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="140dp"
+        android:text="call"
+        android:textColor="#ff1aff"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:background="#ffe6ff"
+        app:srcCompat="@drawable/phonecall1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textSize="30dp"
+        android:background="#ffcccc"
+        android:textColor="#ff1a1a"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/name"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#ffcccc"
+        android:paddingLeft="20dp"
+        android:textColor="#ff1a1a"
+        android:id="@+id/number"/>
+</RelativeLayout>
